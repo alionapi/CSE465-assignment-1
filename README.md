@@ -80,5 +80,76 @@ CSE465: Mobile Computing | Spring 2026 | programming assignment 1
 * Original assignment specification (`CSE465_PA1.pdf`)
 * Project description and repository documentation (`README.md`)
 
-```
-```
+
+## Overview
+
+This project implements a smartphone-based Human Activity Recognition (HAR) system using only the device's accelerometer and gyroscope sensors. Instead of using a pretrained machine learning model or Android's built-in activity recognition APIs, the system uses manually designed features and rule-based classification to recognize human activities in real time.
+
+The application supports:
+
+* Standing Still
+* Walking
+* Running
+* Going Upstairs
+* Going Downstairs
+
+## Features
+
+### Data Collection
+
+The app provides a data collection interface that allows users to:
+
+* View real-time accelerometer data
+* View real-time gyroscope data
+* Select an activity label
+* Start and stop recording sessions
+* Save labeled sensor data for later analysis
+
+### Real-Time Activity Recognition
+
+The app continuously processes sensor data and applies handcrafted rules based on extracted motion features to classify the user's current activity.
+
+Detected activities are displayed directly on the screen in real time.
+
+## Sensor Data
+
+The system uses data from:
+
+* Accelerometer
+* Gyroscope
+
+Multiple recordings were collected for each activity and used to analyze motion patterns and design classification rules.
+
+## Feature Analysis
+
+Several motion-related features were extracted from the sensor signals, including statistics derived from acceleration and rotational movement.
+
+Feature analysis was used to identify characteristics that distinguish:
+
+* Still vs. moving activities
+* Walking vs. running
+* Upstairs vs. downstairs movement
+
+The resulting thresholds and rules were integrated into the real-time recognition pipeline.
+
+## Screenshots
+
+Example application screenshots can be found in the `Screenshots` directory.
+
+## Technologies
+
+* Android Studio
+* Kotlin
+* Android Sensor Framework
+* Accelerometer Sensor
+* Gyroscope Sensor
+* Gradle
+
+## Course Information
+
+**Course:** Mobile Computing (CSE465)
+**Institution:** Ulsan National Institute of Science and Technology (UNIST)
+
+## Disclaimer
+
+This project was developed for educational purposes as part of a university course assignment.
