@@ -152,6 +152,7 @@ Example application screenshots can be found in the `Screenshots` directory.
 **Course:** Mobile Computing (CSE465)
 **Institution:** Ulsan National Institute of Science and Technology (UNIST)
 
+
 ## Disclaimer
 
 This project was developed for educational purposes as part of a university course assignment.
