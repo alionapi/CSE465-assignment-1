@@ -83,6 +83,7 @@ CSE465: Mobile Computing | Spring 2026 | programming assignment 1
 * Project description and repository documentation (`README.md`)
 
 
+
 ## Overview
 
 This project implements a smartphone-based Human Activity Recognition (HAR) system using only the device's accelerometer and gyroscope sensors. Instead of using a pretrained machine learning model or Android's built-in activity recognition APIs, the system uses manually designed features and rule-based classification to recognize human activities in real time.
