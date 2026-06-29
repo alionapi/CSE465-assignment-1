@@ -59,6 +59,7 @@ CSE465: Mobile Computing | Spring 2026 | programming assignment 1
 
 ### Main Components
 
+
 **Android Application (`mobile_pa1/`)**
 
 * Data collection interface for recording labeled sensor data
