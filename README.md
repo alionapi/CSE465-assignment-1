@@ -4,7 +4,6 @@ CSE465: Mobile Computing | Spring 2026 | programming assignment 1
 
 ## Repository Structure
 
-
 ```text
 .
 ├── CSE465_PA1.pdf
